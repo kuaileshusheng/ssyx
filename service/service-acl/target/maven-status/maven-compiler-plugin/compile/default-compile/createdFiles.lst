@@ -1,0 +1,10 @@
+com\atguigu\ssyx\acl\service\impl\RoleServiceImpl.class
+com\atguigu\ssyx\acl\controller\AdminController.class
+com\atguigu\ssyx\acl\service\AdminService.class
+com\atguigu\ssyx\acl\mapper\AdminMapper.class
+com\atguigu\ssyx\ServiceAclApplication.class
+com\atguigu\ssyx\acl\service\impl\AdminServiceImpl.class
+com\atguigu\ssyx\acl\mapper\RoleMapper.class
+com\atguigu\ssyx\acl\service\RoleService.class
+com\atguigu\ssyx\acl\controller\RoleController.class
+com\atguigu\ssyx\acl\controller\IndexController.class
