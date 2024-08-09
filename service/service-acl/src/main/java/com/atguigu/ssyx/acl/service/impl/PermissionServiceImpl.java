@@ -17,8 +17,9 @@ public class PermissionServiceImpl extends ServiceImpl<PermissionMapper, Permiss
     //查询所有菜单
     @Override
     public List<Permission> queryAllPermission() {
-
-
+        //1.查询所有菜单
+        List<Permission> allPermissionList = baseMapper.selectList(null);
+        //2.转换要求数据格式
 
         return null;
     }

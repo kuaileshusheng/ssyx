@@ -28,12 +28,14 @@ public class PermissionController {
     @ApiOperation("添加菜单")
     @PostMapping("/save")
     public Result save(@RequestBody Permission permission){
+        permissionService.save(permission);
         return Result.ok(null);
     }
 
     @ApiOperation("修改菜单")
     @PutMapping("/update")
     public Result update(@RequestBody Permission permission){
+        permissionService.updateById(permission);
         return Result.ok(null);
     }
 
